@@ -41,6 +41,10 @@
         <plugin>
           <groupId>org.apache.tomcat.maven</groupId>
           <artifactId>tomcat7-maven-plugin</artifactId>
+          <configuration>
+            <server>tomcat-development-server</server>
+            <port>9966</port>
+          </configuration>
           <version>2.2</version>
         </plugin>
         <plugin>
